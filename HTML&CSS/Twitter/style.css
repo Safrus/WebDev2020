@@ -1,0 +1,129 @@
+#maindiv{
+    display:flex;
+    min-height:560px;
+}
+
+#leftpartdiv{
+    background-color: #7ec8f3;
+    background-image: url(ptichka.png);
+    background-position: left;
+    width:50%;
+    margin:-8px;
+}
+
+#rightpartdiv{
+    width:50%;
+}
+
+#foot{
+    min-height:81px;
+    background-color:white;
+    margin:-8px;
+    position:relative;
+    top:16px;
+}
+
+.icons{
+    width: 37px;
+    padding-right: 12px;
+}
+
+.icons-text{
+    font-weight: bold;
+    font-family: sans-serif;
+    color:white;
+    font-size: 19px;
+    padding:5px;
+}
+
+#licontexttable{
+    position: relative;
+    left:21%;
+    top:190px;
+}
+
+.foot-text{
+    text-decoration:none;
+    font-family: sans-serif;
+    font-size: 13px;
+    color:#919993;
+    padding:5px;
+    text-align: center;   
+}
+
+.foot-text:hover{
+    text-decoration: underline;
+}
+
+.foot-text:active{
+    color: black;
+}
+
+#registrbutton{
+    width:75%;
+    height:40px;
+    border-radius: 25px;
+    border-color: rgb(56, 148, 209);
+    background-color: rgb(56, 148, 209);
+    color:white;
+    font-family: sans-serif;
+    font-size:14px;
+    font-weight:600;
+    border-style: none;
+}
+
+#enterbutton{
+    width:75%;
+    height:40px;
+    border-radius: 25px;
+    border-color: rgb(56, 148, 209);
+    background-color: white;
+    color:rgb(56, 148, 209);
+    font-family: sans-serif;
+    font-size:14px;
+    font-weight:600;
+    border-style: solid;
+    border-width: thin;
+}
+
+#buttondiv{
+    position: relative;
+    top:5%;
+    left:23%;
+    width: 75%
+}
+
+#registrbutton:hover{
+    background-color: rgb(68, 122, 221);
+}
+
+#enterbutton:hover{
+    background-color: rgb(213, 223, 243);
+}
+
+#twittersmalllogo{
+    width: 10%;
+    margin-top: 16%;
+    margin-left:22%;
+}
+
+#footertable{
+    position: relative;
+    left:29px;
+    top:10px;
+}
+
+#twitterconnectword{
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#twitterinc{
+    text-decoration:none;
+    font-family: sans-serif;
+    font-size: 13px;
+    color:#919993;
+    padding:5px;
+    text-align: center;
+}
