@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TO DO LIST</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<div class = "head" class = "header">
+		<h2 class = "main_h2">TO DO LIST</h2>
+		<input type = "text" id	 = "input" placeholder="Actions to do...">
+		<button onclick="addElement()" class = "addBtn">ADD</button>
+	</div>
+
+	<ul id = "UL">
+		<li>Help to my parents</li>
+		<li>Play with my sister</li>
+		<li>Do my homework</li>
+	</ul>
+
+	<div class = "links">
+		<a onclick="showHidden()" href  = "#">List of finished deals</a>
+		<a onclick = "hideHidden()" href = "#">Hide list of finished deals</a>
+	</div>
+
+	<ul id = "done-UL" style="display: none">
+		
+	</ul>
+
+	<script src="script.js"></script>
+
+
+</body>
+</html>
